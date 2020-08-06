@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ATTA HALILINTAR"
+        android:layout_margin="40dp"
+        android:textColor="#000"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:layout_below="@+id/judul"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/isinama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Rifqi Fauzan Adzikra"/>
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:layout_below="@+id/isinama"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/isialamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alamat"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000"
+        android:text="Kliningan"/>
+
+    <TextView
+        android:id="@+id/kampus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Kampus"
+        android:layout_below="@+id/isialamat"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/isikampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kampus"
+        android:textColor="#000"
+        android:text="SMKN 4 Bandung"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/f1"
+        android:layout_width="85dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/isikampus"
+        android:background="@drawable/foto"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageView
+        android:id="@+id/f2"
+        android:layout_width="85dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/isikampus"
+        android:layout_toRightOf="@id/f1"
+        android:background="@drawable/foto"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"/>
+
+    <ImageView
+        android:id="@+id/f3"
+        android:layout_width="85dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/isikampus"
+        android:layout_toRightOf="@id/f2"
+        android:background="@drawable/foto"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:layout_below="@id/f1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_below="@id/f1"
+        android:layout_toRightOf="@id/bt1"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+
+</RelativeLayout>
